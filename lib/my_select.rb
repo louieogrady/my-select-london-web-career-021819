@@ -1,5 +1,4 @@
 def my_select(array)
-  if block_given?
     array2 = []
     i = 0 
     while i < array.length 
@@ -8,7 +7,4 @@ def my_select(array)
     end 
     i+=1 
   end
-  else 
-    return "Hey! No block was given!"
-  end 
 end
