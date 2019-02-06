@@ -7,8 +7,7 @@ def my_select(array)
       array2 << (array[i])
     end 
     i+=1 
-    end
-  end 
+  end
   else 
     return "Hey! No block was given!"
   end 
