@@ -1,4 +1,5 @@
 def my_select(array)
+  if block_given?
     array2 = []
     i = 0 
     while i < array.length 
