@@ -7,7 +7,7 @@ def my_collect(array)
     i+=1 
     end
     if array2.length == 0 
-      return array1
+      return array
     else 
     return array2
   end 
