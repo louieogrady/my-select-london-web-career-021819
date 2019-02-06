@@ -8,5 +8,4 @@ def my_select(array)
     i+=1 
   end
   array2
-  end 
 end
