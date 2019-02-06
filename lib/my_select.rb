@@ -11,5 +11,6 @@ def my_select(array)
   array2
   else 
     return "Hey! No block was given!"
+    end
 end
 
