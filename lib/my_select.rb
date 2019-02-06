@@ -5,8 +5,7 @@ def my_collect(array)
     while i < array.length 
     if yield(array[i]) == true 
       array2 << (array[i])
-    else
-      return array
+    end 
     i+=1 
     end
   end 
