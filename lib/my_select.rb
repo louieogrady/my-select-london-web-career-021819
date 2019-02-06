@@ -10,6 +10,7 @@ def my_collect(array)
       return array1
     else 
     return array2
+  end 
   else 
     return "Hey! No block was given!"
   end 
