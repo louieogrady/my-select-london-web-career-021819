@@ -8,8 +8,6 @@ def my_select(array)
     end 
     i+=1 
   end
-  else 
-    return "Hey! No block was given!"
-  end 
   array2
+  end 
 end
