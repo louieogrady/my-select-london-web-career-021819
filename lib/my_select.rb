@@ -4,14 +4,11 @@ def my_collect(array)
     i = 0 
     while i < array.length 
     if array == true 
-      yield(array[i])
+      array2 << yield (array[i])
     else
+      return array
     i+=1 
     end
-    if array2.length == 0 
-      return array
-    else 
-    return array2
   end 
   else 
     return "Hey! No block was given!"
