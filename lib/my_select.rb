@@ -5,6 +5,7 @@ def my_select(array)
     if yield(array[i]) == true 
       array2 << array[i])
     end 
+  end
     i+=1 
   end
   array2
