@@ -3,7 +3,7 @@ def my_collect(array)
     array2 = []
     i = 0 
     while i < array.length 
-    if array == true 
+    if (array[i]) == true 
       array2 << yield(array[i])
     else
       return array
