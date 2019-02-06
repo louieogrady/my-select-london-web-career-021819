@@ -13,4 +13,3 @@ def my_select(array)
     return "Hey! No block was given!"
     end
 end
-
