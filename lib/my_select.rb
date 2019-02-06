@@ -6,6 +6,9 @@ def my_collect(array)
     array2 << yield(array[i]) if true
     i+=1 
     end
+    if array2.length == 0 
+      return array1
+    else 
     return array2
   else 
     return "Hey! No block was given!"
