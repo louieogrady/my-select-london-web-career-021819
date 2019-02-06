@@ -4,7 +4,7 @@ def my_collect(array)
     i = 0 
     while i < array.length 
     if array == true 
-      array2 << yield (array[i])
+      array2 << yield(array[i])
     else
       return array
     i+=1 
